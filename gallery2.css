@@ -17,7 +17,7 @@
 }
 
 .card_2 {
-    width: 900px;
+    width: 700px;
     max-width: calc(90% - 40px);
     background-color: var(--secondary_color);
     border-radius: 100px;
@@ -34,7 +34,7 @@
 }
 
 
-@media(max-width: 1900px) {
+@media(max-width: 1600px) {
     .card_2 {
         width: 90%;
         max-width: none;
