@@ -1,0 +1,10 @@
+footer {
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.364);
+    color: var(--secondary-text-color);
+    flex-wrap: wrap;
+    gap: 6px;
+}

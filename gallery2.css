@@ -1,0 +1,42 @@
+#services_section_2 {
+    padding: 70px 0;
+    background-color: var(--secondary_color);
+}
+
+#services_section_2 h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.flex_container_2 {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card_2 {
+    width: 900px;
+    max-width: calc(90% - 40px);
+    background-color: var(--secondary_color);
+    border-radius: 100px;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card_2 * {
+    text-align: center;
+}
+
+
+@media(max-width: 1900px) {
+    .card_2 {
+        width: 90%;
+        max-width: none;
+    }
+}

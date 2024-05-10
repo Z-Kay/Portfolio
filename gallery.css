@@ -1,0 +1,41 @@
+#services_section {
+    padding: 70px 0;
+    background-color: rgba(0, 0, 0, 0.364);
+}
+
+#services_section h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.flex_container {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 900px;
+    max-width: calc(90% - 40px);
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card * {
+    text-align: center;
+}
+
+
+
+@media(max-width: 1900px) {
+    .card {
+        width: 90%;
+        max-width: none;
+    }
+}
