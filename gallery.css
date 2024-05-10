@@ -17,7 +17,7 @@
 }
 
 .card {
-    width: 900px;
+    width: 700px;
     max-width: calc(90% - 40px);
     padding: 10px 20px;
 
@@ -33,7 +33,7 @@
 
 
 
-@media(max-width: 1900px) {
+@media(max-width: 1600px) {
     .card {
         width: 90%;
         max-width: none;
